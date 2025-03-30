@@ -1,0 +1,189 @@
+*{
+    /* border: 2px solid red; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh ;
+    background-color: hsl(0, 0%, 8%);
+}
+
+.proContain{
+    height: 40rem;
+    width: 19rem;
+    /* margin: 0 auto; */
+    /* border: 2px solid blue; */
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 12%);
+}
+
+.jesRan {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    min-height: 1rem;
+    padding: 1.5rem 0;
+    /* background-color: transparent; */
+    /* border: 2px solid white; */
+}
+
+.jesRan > img{
+    border-radius: 50%;
+    height: 7rem;
+}
+
+ .name{
+    display: flex;
+    justify-content: center; 
+ }
+
+ .name >h1{
+    color: hsl(0, 0%, 100%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+}
+
+.location{
+    display: flex;
+    justify-content: center;
+    padding: 0.7rem;
+}
+
+.location >h2{
+    color: hsl(75, 94%, 57%);
+    display:flex;
+    font-size: large;
+}
+
+.jesInfo{
+    display: flex;
+    justify-content: center;
+}
+
+.jesInfo >h3{
+    padding: 0.7rem;
+    color: hsl(0, 0%, 100%);
+    font-size: medium;
+}
+
+.gitHub{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    padding: 0.5rem;
+}
+
+.gitHub >button{
+   font-size: large;
+   width: 70%;
+   border-radius: 0.5rem;
+   height: 2.8rem;
+   background-color: hsl(0, 0%, 20%);
+   cursor: pointer;
+   color: hsl(0, 0%, 100%);
+}
+
+.gitHub :hover{
+    color:  black;
+    border: hsl(0, 0%, 20%);
+    background-color: hsl(75, 94%, 57%);
+}
+
+.frontMen{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    padding: 0.5rem;
+}
+
+.frontMen >button{
+   font-size: large;
+   width: 70%;
+   border-radius: 0.5rem;
+   height: 2.8rem;
+   background-color: hsl(0, 0%, 20%);
+   cursor: pointer;
+   color: hsl(0, 0%, 100%);
+}
+
+.frontMen :hover{
+    color: black;
+    border: hsl(0, 0%, 20%);
+    background-color: hsl(75, 94%, 57%);
+}
+
+.likEdln{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    padding: 0.5rem;
+}
+
+.likEdln >button{
+   font-size: large;
+   width: 70%;
+   border-radius: 0.5rem;
+   height: 2.8rem;
+   background-color: hsl(0, 0%, 20%);
+   cursor: pointer;
+   color: hsl(0, 0%, 100%);
+}
+
+.likEdln :hover{
+    color: black;
+    border: hsl(0, 0%, 20%);
+    background-color: hsl(75, 94%, 57%);
+}
+
+.twiTter{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    padding: 0.5rem;
+}
+
+.twiTter >button{
+   font-size: large;
+   width: 70%;
+   border-radius: 0.5rem;
+   height: 2.8rem;
+   background-color: hsl(0, 0%, 20%);
+   cursor: pointer;
+   color: hsl(0, 0%, 100%);
+}
+
+.twiTter :hover{
+    color: black;
+    border: hsl(0, 0%, 20%);
+    background-color: hsl(75, 94%, 57%);
+}
+
+.instaGram{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    padding: 0.5rem;
+}
+
+.instaGram >button{
+   font-size: large;
+   width: 70%;
+   border-radius: 0.5rem;
+   height: 2.8rem;
+   background-color : hsl(0, 0%, 20%);
+   cursor: pointer;
+   color: hsl(0, 0%, 100%);
+}
+
+.instaGram :hover{
+    color: black;
+    border: hsl(0, 0%, 20%);
+    background-color: hsl(75, 94%, 57%);
+}
